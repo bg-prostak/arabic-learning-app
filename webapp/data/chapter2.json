@@ -1,23 +1,23 @@
 [
   {
-    "arabic": "مَنْ",
-    "translation": "кто?"
-  },
-  {
     "arabic": "صَبَاحُ الخَيْر",
     "translation": "доброе утро"
   },
   {
+    "arabic": "مَنْ",
+    "translation": "кто?"
+  },
+  {
     "arabic": "قَرِيب",
-    "translation": "родственник"
+    "translation": "родственник / близкий"
   },
   {
     "arabic": "أَقَارِب",
-    "translation": "близкий"
+    "translation": "родственники"
   },
   {
     "arabic": "هُوَ",
-    "translation": "эти"
+    "translation": "это"
   },
   {
     "arabic": "رَجُل",
@@ -25,7 +25,7 @@
   },
   {
     "arabic": "رِجَال",
-    "translation": "они"
+    "translation": "мужчины"
   },
   {
     "arabic": "أَب",
@@ -37,7 +37,7 @@
   },
   {
     "arabic": "نِسَاء",
-    "translation": "мать"
+    "translation": "женщины"
   },
   {
     "arabic": "أُمّ",
@@ -45,203 +45,199 @@
   },
   {
     "arabic": "مُدَرِّس",
-    "translation": "садик; учёный"
+    "translation": "учитель"
   },
   {
     "arabic": "أُسْتَاذ",
-    "translation": "дед"
+    "translation": "учитель / преподаватель"
   },
   {
     "arabic": "شَيْخ",
-    "translation": "имам"
+    "translation": "шейх"
   },
   {
     "arabic": "شُيُوخ",
-    "translation": "мечеть"
+    "translation": "шейхи"
   },
   {
     "arabic": "جَدّ",
-    "translation": "юноша"
+    "translation": "дед"
   },
   {
     "arabic": "إِمَام",
-    "translation": "сын (мн.)"
+    "translation": "имам"
   },
   {
     "arabic": "مَسْجِد",
-    "translation": "тоже"
+    "translation": "мечеть"
   },
   {
     "arabic": "مَسَاجِد",
-    "translation": "они"
+    "translation": "мечети"
   },
   {
     "arabic": "شَابّ",
-    "translation": "разумный"
+    "translation": "юноша"
   },
   {
     "arabic": "شَبَاب",
-    "translation": "6"
-  },
-  {
-    "arabic": "مَنْ",
-    "translation": "7"
-  },
-  {
-    "arabic": "أَيْضًا",
-    "translation": "8"
+    "translation": "юноши"
   },
   {
     "arabic": "هُمْ",
-    "translation": "9"
+    "translation": "они"
+  },
+  {
+    "arabic": "أَيْضًا",
+    "translation": "тоже"
   },
   {
     "arabic": "عَاقِل",
-    "translation": "10"
+    "translation": "разумный"
   },
   {
     "arabic": "سِتَّة",
-    "translation": "ребенок"
+    "translation": "6"
   },
   {
     "arabic": "سَبْعَة",
-    "translation": "отец / родитель"
+    "translation": "7"
   },
   {
     "arabic": "ثَمَانِيَة",
-    "translation": "наш"
+    "translation": "8"
   },
   {
     "arabic": "تِسْعَة",
-    "translation": "ваш(а)"
+    "translation": "9"
   },
   {
     "arabic": "عَشَرَة",
-    "translation": "внутри"
+    "translation": "10"
   },
   {
     "arabic": "وَلَد",
-    "translation": "школа"
+    "translation": "ребёнок"
   },
   {
     "arabic": "أَوْلَاد",
-    "translation": "он молится"
+    "translation": "дети"
   },
   {
     "arabic": "وَالِد",
-    "translation": "молитва"
+    "translation": "отец / родитель"
   },
   {
     "arabic": "نَا",
-    "translation": "утренний"
+    "translation": "наш"
   },
   {
     "arabic": "كُمْ",
-    "translation": "обеденный"
+    "translation": "ваш"
   },
   {
     "arabic": "فِي",
-    "translation": "предвечерний"
+    "translation": "в (внутри)"
   },
   {
     "arabic": "مَدْرَسَة",
-    "translation": "вечерний"
+    "translation": "школа"
   },
   {
     "arabic": "يُصَلِّي",
-    "translation": "ночной"
+    "translation": "он молится"
   },
   {
     "arabic": "صَلَاة",
-    "translation": "комната"
+    "translation": "молитва"
   },
   {
     "arabic": "صَلَوَات",
-    "translation": "она читает"
+    "translation": "молитвы"
   },
   {
     "arabic": "الفَجْر",
-    "translation": "азан"
+    "translation": "утренний"
   },
   {
     "arabic": "الظُّهْر",
-    "translation": "давай пойдем"
+    "translation": "обеденный"
   },
   {
     "arabic": "العَصْر",
-    "translation": "к (направление)"
+    "translation": "предвечерний"
   },
   {
     "arabic": "المَغْرِب",
-    "translation": "что"
+    "translation": "вечерний"
   },
   {
     "arabic": "العِشَاء",
-    "translation": "ты делаешь"
+    "translation": "ночной"
   },
   {
     "arabic": "غُرْفَة",
-    "translation": "дом"
+    "translation": "комната"
   },
   {
     "arabic": "غُرَف",
-    "translation": "я читаю"
+    "translation": "комнаты"
   },
   {
     "arabic": "تَقْرَأُ",
-    "translation": "биография"
+    "translation": "она читает"
   },
   {
     "arabic": "أَذَان",
-    "translation": "посланник"
+    "translation": "азан"
   },
   {
     "arabic": "هَيَّا بِنَا",
-    "translation": "пророк"
+    "translation": "давай пойдём"
   },
   {
     "arabic": "إِلَى",
-    "translation": "два (со стороны отца)"
+    "translation": "к (направление)"
   },
   {
     "arabic": "مَاذَا",
-    "translation": "тетя (со стороны отца)"
+    "translation": "что"
   },
   {
     "arabic": "تَفْعَل",
-    "translation": "я пишу"
+    "translation": "ты делаешь"
   },
   {
     "arabic": "بَيْت",
-    "translation": "урок"
+    "translation": "дом"
   },
   {
     "arabic": "بُيُوت",
-    "translation": "сын"
+    "translation": "дома"
   },
   {
     "arabic": "أَقْرَأُ",
-    "translation": "дочь"
+    "translation": "я читаю"
   },
   {
     "arabic": "سِيرَة",
-    "translation": "дядя (со стороны матери)"
+    "translation": "биография"
   },
   {
     "arabic": "رَسُول",
-    "translation": "тетя (со стороны матери)"
+    "translation": "посланник"
   },
   {
     "arabic": "رُسُل",
-    "translation": "я заучиваю"
+    "translation": "посланники"
   },
   {
     "arabic": "نَبِيّ",
-    "translation": "правильно / верно"
+    "translation": "пророк"
   },
   {
     "arabic": "أَنْبِيَاء",
-    "translation": "правильно / верно"
+    "translation": "пророки"
   },
   {
     "arabic": "مَعَ",
@@ -257,11 +253,11 @@
   },
   {
     "arabic": "عَمَّة",
-    "translation": "тетя (со стороны отца)"
+    "translation": "тётя (со стороны отца)"
   },
   {
     "arabic": "عَمَّات",
-    "translation": "тети"
+    "translation": "тёти"
   },
   {
     "arabic": "أَكْتُبُ",
@@ -297,7 +293,7 @@
   },
   {
     "arabic": "خَالَة",
-    "translation": "тетя (со стороны матери)"
+    "translation": "тётя (со стороны матери)"
   },
   {
     "arabic": "أَحْفَظُ",

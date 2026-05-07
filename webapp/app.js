@@ -122,8 +122,8 @@ function renderHero() {
   return `
     <section class="hero">
       <p class="eyebrow">Курс академии</p>
-      <h2>Арабский без хаоса в чате</h2>
-      <p>Главы, диалоги, правила, словари и тренировки собраны в одном месте. Добавляй материалы по мере прохождения курса.</p>
+      <h2>Арабский в кармане</h2>
+      <p>Главы, диалоги, правила, словари и тренировки собраны в одном месте. Добавляем материалы по мере прохождения курса.</p>
     </section>
 
     <section class="grid">
@@ -152,13 +152,24 @@ function renderHome() {
   `;
 }
 
-async function renderDictionary() {
+async function renderDictionary(resetSearch = true) {
+  if (resetSearch) {
+    state.search = "";
+  }
   const chapter = currentChapter();
   const words = await loadWords(chapter.id);
   const query = state.search.trim().toLowerCase();
   const filtered = words.filter((word) => {
-    return word.arabic.includes(state.search.trim()) ||
-      word.translation.toLowerCase().includes(query);
+
+    const arabic = String(word.arabic || "").normalize("NFC");
+
+    const translation = String(word.translation || "")
+      .toLowerCase()
+      .normalize("NFC");
+
+    return arabic.includes(query) ||
+      translation.includes(query);
+
   });
 
   app.innerHTML = `
@@ -182,9 +193,20 @@ async function renderDictionary() {
     </section>
   `;
 
-  document.querySelector("#searchInput").addEventListener("input", (event) => {
+  document.querySelector("#searchInput").addEventListener("input", async (event) => {
+
     state.search = event.target.value;
-    renderDictionary();
+
+    await renderDictionary(false);
+
+    const input = document.querySelector("#searchInput");
+
+    input.focus();
+
+    input.setSelectionRange(
+      state.search.length,
+      state.search.length
+    );
   });
 }
 
@@ -345,11 +367,11 @@ async function renderTest() {
       <h2 class="arabic">${escapeHtml(current.arabic)}</h2>
       <div class="grid">
         ${test.options.map((option, index) => {
-          const isCorrect = option === current.translation;
-          const selected = test.selected === index;
-          const className = test.answered && isCorrect ? "correct" : test.answered && selected ? "wrong" : "";
-          return `<button class="option-button ${className}" data-answer="${index}" type="button">${escapeHtml(option)}</button>`;
-        }).join("")}
+    const isCorrect = option === current.translation;
+    const selected = test.selected === index;
+    const className = test.answered && isCorrect ? "correct" : test.answered && selected ? "wrong" : "";
+    return `<button class="option-button ${className}" data-answer="${index}" type="button">${escapeHtml(option)}</button>`;
+  }).join("")}
       </div>
       <div class="toolbar">
         <button class="ghost-button" id="cancelTest" type="button">К карточкам</button>
