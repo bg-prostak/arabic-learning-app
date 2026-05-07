@@ -1,0 +1,242 @@
+[
+  {
+    "arabic": "أَيّ",
+    "translation": "какой / какая / какого..."
+  },
+  {
+    "arabic": "بَلَد",
+    "translation": "страна"
+  },
+  {
+    "arabic": "بِلَاد",
+    "translation": "страны"
+  },
+  {
+    "arabic": "سُورِيَا",
+    "translation": "Сирия"
+  },
+  {
+    "arabic": "مَدِينَة",
+    "translation": "город / медина"
+  },
+  {
+    "arabic": "تَسْكُن",
+    "translation": "ты живёшь"
+  },
+  {
+    "arabic": "دِمَشْق",
+    "translation": "Дамаск"
+  },
+  {
+    "arabic": "عَجِيب",
+    "translation": "удивительно"
+  },
+  {
+    "arabic": "حَيّ",
+    "translation": "район"
+  },
+  {
+    "arabic": "بَيْت",
+    "translation": "дом"
+  },
+  {
+    "arabic": "بَيْتُهُ",
+    "translation": "дом его"
+  },
+  {
+    "arabic": "مَطَار",
+    "translation": "аэропорт"
+  },
+  {
+    "arabic": "عِنْد",
+    "translation": "около / у / во время"
+  },
+  {
+    "arabic": "جَامِعَة",
+    "translation": "университет"
+  },
+  {
+    "arabic": "جَامِعَات",
+    "translation": "университеты"
+  },
+  {
+    "arabic": "كَبِير",
+    "translation": "большой"
+  },
+  {
+    "arabic": "مَعَ السَّلَامَة",
+    "translation": "с миром / пока"
+  },
+  {
+    "arabic": "طَرِيق",
+    "translation": "путь / дорога"
+  },
+  {
+    "arabic": "إِلَى أَيْن",
+    "translation": "куда?"
+  },
+  {
+    "arabic": "تُسَافِر",
+    "translation": "ты путешествуешь"
+  },
+  {
+    "arabic": "سَفَر",
+    "translation": "путешествие"
+  },
+  {
+    "arabic": "مَكَّة",
+    "translation": "Мекка"
+  },
+  {
+    "arabic": "لِ",
+    "translation": "для"
+  },
+  {
+    "arabic": "العُمْرَة",
+    "translation": "умра"
+  },
+  {
+    "arabic": "قُمْ مِنْ",
+    "translation": "с кем"
+  },
+  {
+    "arabic": "وَالِدَيْن",
+    "translation": "родители"
+  },
+  {
+    "arabic": "صَغِيرَة",
+    "translation": "маленькая"
+  },
+  {
+    "arabic": "خَبَر",
+    "translation": "новость / весть"
+  },
+  {
+    "arabic": "أَخْبَار",
+    "translation": "новости / вести"
+  },
+  {
+    "arabic": "وَفَّقَكُمُ الله",
+    "translation": "да поможет вам Allah"
+  },
+  {
+    "arabic": "بَارَكَ اللهُ فِيك",
+    "translation": "да благословит тебя Allah"
+  },
+  {
+    "arabic": "نَذْهَب",
+    "translation": "мы отправляемся"
+  },
+  {
+    "arabic": "حَسَنًا",
+    "translation": "хорошо / ладно"
+  },
+  {
+    "arabic": "لَكِن",
+    "translation": "но / однако"
+  },
+  {
+    "arabic": "تَعْرِف",
+    "translation": "ты знаешь"
+  },
+  {
+    "arabic": "شُقَّة",
+    "translation": "квартира"
+  },
+  {
+    "arabic": "شُقَق",
+    "translation": "квартиры"
+  },
+  {
+    "arabic": "حَدِيقَة",
+    "translation": "сад / парк"
+  },
+  {
+    "arabic": "مَشْغُول",
+    "translation": "занятой"
+  },
+  {
+    "arabic": "لَدَيْهِ",
+    "translation": "у — есть"
+  },
+  {
+    "arabic": "لَدَيْكَ",
+    "translation": "у тебя есть"
+  },
+  {
+    "arabic": "لَدَيْنَا",
+    "translation": "у нас есть"
+  },
+  {
+    "arabic": "اِخْتِبَار",
+    "translation": "экзамен"
+  },
+  {
+    "arabic": "اِخْتِبَارَات",
+    "translation": "экзамены"
+  },
+  {
+    "arabic": "دَوْر",
+    "translation": "этаж / очередь"
+  },
+  {
+    "arabic": "أَدْوَار",
+    "translation": "этажи / очереди"
+  },
+  {
+    "arabic": "بَاب",
+    "translation": "дверь / глава книги"
+  },
+  {
+    "arabic": "أَبْوَاب",
+    "translation": "двери / главы книги"
+  },
+  {
+    "arabic": "رَقَم",
+    "translation": "номер / цифра"
+  },
+  {
+    "arabic": "أَرْقَام",
+    "translation": "номера / цифры"
+  },
+  {
+    "arabic": "الأَوَّل",
+    "translation": "первый"
+  },
+  {
+    "arabic": "الثَّانِي",
+    "translation": "второй"
+  },
+  {
+    "arabic": "الثَّالِث",
+    "translation": "третий"
+  },
+  {
+    "arabic": "الرَّابِع",
+    "translation": "четвёртый"
+  },
+  {
+    "arabic": "الخَامِس",
+    "translation": "пятый"
+  },
+  {
+    "arabic": "السَّادِس",
+    "translation": "шестой"
+  },
+  {
+    "arabic": "السَّابِع",
+    "translation": "седьмой"
+  },
+  {
+    "arabic": "الثَّامِن",
+    "translation": "восьмой"
+  },
+  {
+    "arabic": "التَّاسِع",
+    "translation": "девятый"
+  },
+  {
+    "arabic": "العَاشِر",
+    "translation": "десятый"
+  }
+]

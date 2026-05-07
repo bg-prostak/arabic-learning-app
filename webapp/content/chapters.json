@@ -1,0 +1,195 @@
+{
+  "rules": [
+    {
+      "title": "Мужской и женский род в арабском языке",
+      "tag": "Грамматика",
+      "path": "rules/1.png",
+      "webPath": "media/rules/1.png"
+    },
+    {
+      "title": "Единственное, двойственное и множественное число",
+      "tag": "Грамматика",
+      "path": "rules/2.png",
+      "webPath": "media/rules/2.png"
+    },
+    {
+      "title": "Указательные местоимения: этот / эта / тот",
+      "tag": "Местоимения",
+      "path": "rules/3.png",
+      "webPath": "media/rules/3.png"
+    },
+    {
+      "title": "Одушевлённые и неодушевлённые существительные",
+      "tag": "Существительные",
+      "path": "rules/4.png",
+      "webPath": "media/rules/4.png"
+    },
+    {
+      "title": "Части речи в арабском языке",
+      "tag": "Грамматика",
+      "path": "rules/5.png",
+      "webPath": "media/rules/5.png"
+    },
+    {
+      "title": "Спряжение глаголов в настоящем времени",
+      "tag": "Глаголы",
+      "path": "rules/6.png",
+      "webPath": "media/rules/6.png"
+    },
+    {
+      "title": "Согласование прилагательного с существительным",
+      "tag": "Прилагательные",
+      "path": "rules/7.png",
+      "webPath": "media/rules/7.png"
+    },
+    {
+      "title": "Предлоги в арабском языке",
+      "tag": "Предлоги",
+      "path": "rules/8.png",
+      "webPath": "media/rules/8.png"
+    },
+    {
+      "title": "Идафа — конструкция принадлежности",
+      "tag": "Идафа",
+      "path": "rules/9.png",
+      "webPath": "media/rules/9.png"
+    },
+    {
+      "title": "Отдельные личные местоимения",
+      "tag": "Местоимения",
+      "path": "rules/10.png",
+      "webPath": "media/rules/10.png"
+    },
+    {
+      "title": "Присоединённые местоимения",
+      "tag": "Местоимения",
+      "path": "rules/11.png",
+      "webPath": "media/rules/11.png"
+    },
+    {
+      "title": "Образование глагола прошлого времени",
+      "tag": "Глаголы",
+      "path": "rules/12.png",
+      "webPath": "media/rules/12.png"
+    },
+    {
+      "title": "Числительные в арабском языке",
+      "tag": "Числительные",
+      "path": "rules/13.png",
+      "webPath": "media/rules/13.png"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "chapter1",
+      "title": "Глава 1 — Встреча и знакомство",
+      "subtitle": "Приветствие, знакомство, вопросы об имени и происхождении.",
+      "words": "words/chapter1.json",
+      "webWords": "data/chapter1.json",
+      "dialogs": [
+        {
+          "title": "Диалог 1 — Как тебя зовут? (м.р.)",
+          "path": "dialogues/chapter1/dialog1.png",
+          "webPath": "media/dialogues/chapter1/dialog1.png"
+        },
+        {
+          "title": "Диалог 2 — Как тебя зовут? (ж.р.)",
+          "path": "dialogues/chapter1/dialog2.png",
+          "webPath": "media/dialogues/chapter1/dialog2.png"
+        },
+        {
+          "title": "Диалог 3 — Откуда ты? (м.р.)",
+          "path": "dialogues/chapter1/dialog3.png",
+          "webPath": "media/dialogues/chapter1/dialog3.png"
+        },
+        {
+          "title": "Диалог 4 — Откуда ты? (ж.р.)",
+          "path": "dialogues/chapter1/dialog4.png",
+          "webPath": "media/dialogues/chapter1/dialog4.png"
+        },
+        {
+          "title": "Диалог 5 — Это мой брат. Он инженер",
+          "path": "dialogues/chapter1/dialog5.png",
+          "webPath": "media/dialogues/chapter1/dialog5.png"
+        },
+        {
+          "title": "Диалог 6 — Это моя сестра. Она врач",
+          "path": "dialogues/chapter1/dialog6.png",
+          "webPath": "media/dialogues/chapter1/dialog6.png"
+        }
+      ]
+    },
+    {
+      "id": "chapter2",
+      "title": "Глава 2 — Родственники и друзья",
+      "subtitle": "Семья, друзья, люди вокруг и действия дома.",
+      "words": "words/chapter2.json",
+      "webWords": "data/chapter2.json",
+      "dialogs": [
+        {
+          "title": "Диалог 1 — Кто эти люди?",
+          "path": "dialogues/chapter2/dialog1.png",
+          "webPath": "media/dialogues/chapter2/dialog1.png"
+        },
+        {
+          "title": "Диалог 2 — Где ваш дедушка?",
+          "path": "dialogues/chapter2/dialog2.png",
+          "webPath": "media/dialogues/chapter2/dialog2.png"
+        },
+        {
+          "title": "Диалог 3 — Что ты делаешь дома?",
+          "path": "dialogues/chapter2/dialog3.png",
+          "webPath": "media/dialogues/chapter2/dialog3.png"
+        }
+      ]
+    },
+    {
+      "id": "chapter3",
+      "title": "Глава 3 — Места",
+      "subtitle": "Города, поездки, адреса и номера.",
+      "words": "words/chapter3.json",
+      "webWords": "data/chapter3.json",
+      "dialogs": [
+        {
+          "title": "Диалог 1 — Из какого ты города?",
+          "path": "dialogues/chapter3/dialog1.png",
+          "webPath": "media/dialogues/chapter3/dialog1.png"
+        },
+        {
+          "title": "Диалог 2 — Ты едешь в Мекку?",
+          "path": "dialogues/chapter3/dialog2.png",
+          "webPath": "media/dialogues/chapter3/dialog2.png"
+        },
+        {
+          "title": "Диалог 3 — Какой номер квартиры?",
+          "path": "dialogues/chapter3/dialog3.png",
+          "webPath": "media/dialogues/chapter3/dialog3.png"
+        }
+      ]
+    },
+    {
+      "id": "chapter4",
+      "title": "Глава 4 — Еда",
+      "subtitle": "Еда, ресторан, предпочтения и повседневные фразы.",
+      "words": "words/chapter4.json",
+      "webWords": "data/chapter4.json",
+      "dialogs": [
+        {
+          "title": "Диалог 1 — Я уже покушал?",
+          "path": "dialogues/chapter4/dialog1.png",
+          "webPath": "media/dialogues/chapter4/dialog1.png"
+        },
+        {
+          "title": "Диалог 2 — Что вы будете есть в ресторане?",
+          "path": "dialogues/chapter4/dialog2.png",
+          "webPath": "media/dialogues/chapter4/dialog2.png"
+        },
+        {
+          "title": "Диалог 3 — Что ты любишь из еды?",
+          "path": "dialogues/chapter4/dialog3.png",
+          "webPath": "media/dialogues/chapter4/dialog3.png"
+        }
+      ]
+    }
+  ]
+}

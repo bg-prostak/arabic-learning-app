@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arabic Academy</title>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Arabic Academy</p>
+        <h1>Учебник в кармане</h1>
+      </div>
+      <button class="icon-button" id="themeButton" type="button" aria-label="Сменить тему">◐</button>
+    </header>
+
+    <main id="app" class="screen"></main>
+
+    <nav class="bottom-nav" aria-label="Разделы">
+      <button class="nav-item active" type="button" data-view="home">
+        <span>⌂</span>
+        Главная
+      </button>
+      <button class="nav-item" type="button" data-view="dictionary">
+        <span>ا</span>
+        Слова
+      </button>
+      <button class="nav-item" type="button" data-view="practice">
+        <span>↻</span>
+        Повтор
+      </button>
+      <button class="nav-item" type="button" data-view="rules">
+        <span>§</span>
+        Правила
+      </button>
+    </nav>
+  </div>
+
+  <dialog id="imageDialog" class="image-dialog">
+    <button class="icon-button close-dialog" id="closeImage" type="button" aria-label="Закрыть">×</button>
+    <img id="dialogImage" alt="">
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
