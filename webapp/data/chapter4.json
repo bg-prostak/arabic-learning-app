@@ -21,10 +21,10 @@
   },
   {
     "arabic": "أَكَلْتُ",
-    "translation": "ты поел"
+    "translation": "я поел"
   },
   {
-    "arabic": "الفُطُور",
+    "arabic": "الفَطُور",
     "translation": "завтрак"
   },
   {
@@ -32,7 +32,7 @@
     "translation": "хлеб"
   },
   {
-    "arabic": "لَحْم",
+    "arabic": "لَحْم|لُحُوم",
     "translation": "мясо"
   },
   {
@@ -40,7 +40,7 @@
     "translation": "обед"
   },
   {
-    "arabic": "أُرُزّ",
+    "arabic": "أَرزّ",
     "translation": "рис"
   },
   {
@@ -52,7 +52,7 @@
     "translation": "столовая / кафе"
   },
   {
-    "arabic": "تَشْتَهِي",
+    "arabic": "سَتَذْهَبُ",
     "translation": "ты будешь отправляться"
   },
   {
@@ -125,7 +125,7 @@
   },
   {
     "arabic": "أُحِبُّ",
-    "translation": "он любит"
+    "translation": "я люблю"
   },
   {
     "arabic": "جِدًّا",

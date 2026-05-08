@@ -73,10 +73,28 @@
       "webPath": "media/rules/12.png"
     },
     {
-      "title": "Числительные в арабском языке",
+      "title": "Образование чисел",
       "tag": "Числительные",
       "path": "rules/13.png",
       "webPath": "media/rules/13.png"
+    },
+    {
+      "title": "Противопоставление числа и исчисляемого в роде",
+      "tag": "Числительные",
+      "path": "rules/14.png",
+      "webPath": "media/rules/14.png"
+    },
+    {
+      "title": "Солнечные и лунные буквы",
+      "tag": "Буквы",
+      "path": "rules/15.png",
+      "webPath": "media/rules/15.png"
+    },
+    {
+      "title": "Порядковые числительные",
+      "tag": "Числительные",
+      "path": "rules/16.png",
+      "webPath": "media/rules/16.png"
     }
   ],
   "chapters": [
@@ -188,6 +206,30 @@
           "title": "Диалог 3 — Что ты любишь из еды?",
           "path": "dialogues/chapter4/dialog3.png",
           "webPath": "media/dialogues/chapter4/dialog3.png"
+        }
+      ]
+    },
+    {
+      "id": "chapter5",
+      "title": "Глава 5 — Учеба",
+      "subtitle": "Про учебу и образование.",
+      "words": "words/chapter5.json",
+      "webWords": "data/chapter5.json",
+      "dialogs": [
+        {
+          "title": "Диалог 1 — Сколько лет ты учишь арабский?",
+          "path": "dialogues/chapter5/dialog1.png",
+          "webPath": "media/dialogues/chapter5/dialog1.png"
+        },
+        {
+          "title": "Диалог 2 — Когда начнется урок?",
+          "path": "dialogues/chapter5/dialog2.png",
+          "webPath": "media/dialogues/chapter5/dialog2.png"
+        },
+        {
+          "title": "Диалог 3 — Экзамен будет трудным?",
+          "path": "dialogues/chapter5/dialog3.png",
+          "webPath": "media/dialogues/chapter5/dialog3.png"
         }
       ]
     }
