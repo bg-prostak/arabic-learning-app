@@ -194,5 +194,97 @@
   {
     "arabic": "يَوْمُ السَّبْت",
     "translation": "суббота"
+  },
+  {
+    "arabic": "مُمْكِن",
+    "translation": "можно"
+  },
+  {
+    "arabic": "سُؤَال",
+    "translation": "вопрос"
+  },
+  {
+    "arabic": "تَفَضَّلْ",
+    "translation": "(вот) пожалуйста"
+  },
+  {
+    "arabic": "سَأَلَ - يَسْأَلُ - اِسْأَلْ",
+    "translation": "спрашивать"
+  },
+  {
+    "arabic": "كَانَ - يَكُونُ - كُنْ",
+    "translation": "быть"
+  },
+  {
+    "arabic": "صَعْب",
+    "translation": "сложный"
+  },
+  {
+    "arabic": "كَسْلَان",
+    "translation": "ленивый"
+  },
+  {
+    "arabic": "كَسَالَى",
+    "translation": "ленивые"
+  },
+  {
+    "arabic": "فَقَط",
+    "translation": "только"
+  },
+  {
+    "arabic": "الَّذِي",
+    "translation": "который"
+  },
+  {
+    "arabic": "الَّذِينَ",
+    "translation": "которые"
+  },
+  {
+    "arabic": "الَّتِي",
+    "translation": "которая"
+  },
+  {
+    "arabic": "جَيِّد",
+    "translation": "хороший"
+  },
+  {
+    "arabic": "طَيِّب",
+    "translation": "хороший"
+  },
+  {
+    "arabic": "مَارَسَ - يُمَارِسُ - مَارِسْ",
+    "translation": "заниматься"
+  },
+  {
+    "arabic": "كَثِير",
+    "translation": "много"
+  },
+  {
+    "arabic": "لِأَنَّ",
+    "translation": "потому что"
+  },
+  {
+    "arabic": "أَحْسَنْتَ",
+    "translation": "молодец"
+  },
+  {
+    "arabic": "عُطْلَة",
+    "translation": "каникулы"
+  },
+  {
+    "arabic": "أُسْبُوع",
+    "translation": "неделя"
+  },
+  {
+    "arabic": "أَسَابِيع",
+    "translation": "недели"
+  },
+  {
+    "arabic": "شَهْر",
+    "translation": "месяц"
+  },
+  {
+    "arabic": "أَشْهُر",
+    "translation": "месяцы"
   }
 ]
