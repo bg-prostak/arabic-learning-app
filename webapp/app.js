@@ -108,12 +108,16 @@ function setView(view) {
 
 function chapterTabs() {
   return `
-    <div class="chapter-tabs">
-      ${catalog.chapters.map((chapter) => `
-        <button class="tab-button ${chapter.id === state.activeChapter ? "active" : ""}" data-chapter-tab="${chapter.id}" type="button">
-          ${escapeHtml(chapter.title)}
-        </button>
-      `).join("")}
+    <div class="chapter-tabs-shell">
+      <button class="tabs-arrow" data-tabs-scroll="-1" type="button" aria-label="Листать главы влево">‹</button>
+      <div class="chapter-tabs" data-chapter-tabs>
+        ${catalog.chapters.map((chapter) => `
+          <button class="tab-button ${chapter.id === state.activeChapter ? "active" : ""}" data-chapter-tab="${chapter.id}" type="button">
+            ${escapeHtml(chapter.title)}
+          </button>
+        `).join("")}
+      </div>
+      <button class="tabs-arrow" data-tabs-scroll="1" type="button" aria-label="Листать главы вправо">›</button>
     </div>
   `;
 }
@@ -432,9 +436,19 @@ async function render() {
 }
 
 app.addEventListener("click", (event) => {
-  const target = event.target.closest("[data-open], [data-image], [data-chapter-tab]");
+  const target = event.target.closest("[data-open], [data-image], [data-chapter-tab], [data-tabs-scroll]");
 
   if (!target) {
+    return;
+  }
+
+  if (target.dataset.tabsScroll) {
+    const tabs = target.parentElement.querySelector("[data-chapter-tabs]");
+    const direction = Number(target.dataset.tabsScroll);
+    tabs.scrollBy({
+      left: direction * Math.max(180, tabs.clientWidth * 0.7),
+      behavior: "smooth"
+    });
     return;
   }
 
@@ -461,6 +475,21 @@ app.addEventListener("click", (event) => {
 
   setView(open);
 });
+
+app.addEventListener("wheel", (event) => {
+  const tabs = event.target.closest("[data-chapter-tabs]");
+
+  if (!tabs) {
+    return;
+  }
+
+  if (Math.abs(event.deltaY) <= Math.abs(event.deltaX)) {
+    return;
+  }
+
+  event.preventDefault();
+  tabs.scrollLeft += event.deltaY;
+}, { passive: false });
 
 navButtons.forEach((button) => {
   button.addEventListener("click", () => setView(button.dataset.view));

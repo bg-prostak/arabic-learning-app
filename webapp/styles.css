@@ -200,6 +200,16 @@ h3 {
   min-width: 0;
 }
 
+.chapter-tabs-shell {
+  width: 100%;
+  min-width: 0;
+  display: grid;
+  grid-template-columns: 36px minmax(0, 1fr) 36px;
+  gap: 8px;
+  align-items: center;
+  margin: 0 0 14px;
+}
+
 .chapter-tabs {
   width: 100%;
   min-width: 0;
@@ -207,14 +217,33 @@ h3 {
   gap: 8px;
   overflow-x: auto;
   overflow-y: hidden;
-  margin: 0 0 14px;
   padding-bottom: 4px;
   scrollbar-width: none;
   -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
 }
 
 .chapter-tabs::-webkit-scrollbar {
   display: none;
+}
+
+.tabs-arrow {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 40px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--accent);
+  background: var(--bg-soft);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.tabs-arrow:hover {
+  background: var(--accent-soft);
 }
 
 .tab-button {
@@ -483,6 +512,14 @@ h3 {
 
   .panel {
     padding: 16px;
+  }
+
+  .chapter-tabs-shell {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .tabs-arrow {
+    display: none;
   }
 
   .arabic {

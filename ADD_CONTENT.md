@@ -1,22 +1,62 @@
-# Как добавлять новые материалы
+# Как быстро добавлять новые материалы
 
-Весь курс описывается в одном файле:
+Теперь не нужно вручную раскладывать файлы по `words`, `dialogues`, `webapp/data`, `webapp/media` и править несколько мест.
 
-```text
-content/chapters.json
-```
-
-Правила лежат общим списком в поле `rules`, а главы лежат в поле `chapters`.
-
-## 1. Словарь главы
-
-Создай файл:
+Есть один импортёр:
 
 ```text
-words/chapter5.json
+import_content.py
 ```
 
-Формат:
+Он сам:
+
+- копирует словарь в `words`;
+- копирует диалоги в `dialogues`;
+- обновляет `content/chapters.json`;
+- копирует всё в `webapp`;
+- обновляет `webapp/content/chapters.json`.
+
+## Добавить новую главу
+
+1. Скопируй шаблон:
+
+```text
+content_inbox/chapter_template
+```
+
+Например, сделай папку:
+
+```text
+content_inbox/chapter6
+```
+
+2. Внутри должны лежать:
+
+```text
+chapter.json
+words.json
+dialog1.png
+dialog2.png
+dialog3.png
+```
+
+3. В `chapter.json` напиши название главы и диалогов:
+
+```json
+{
+  "id": "chapter6",
+  "title": "Глава 6 — Название главы",
+  "subtitle": "Короткое описание главы.",
+  "dialogs": [
+    {
+      "title": "Диалог 1 — Название",
+      "file": "dialog1.png"
+    }
+  ]
+}
+```
+
+4. В `words.json` добавь слова:
 
 ```json
 [
@@ -27,70 +67,70 @@ words/chapter5.json
 ]
 ```
 
-## 2. Диалоги главы
+5. Запусти:
 
-Положи картинки сюда:
-
-```text
-dialogues/chapter5/dialog1.png
-dialogues/chapter5/dialog2.png
+```powershell
+py import_content.py chapter content_inbox/chapter6
 ```
 
-## 3. Новая глава в `content/chapters.json`
+Глава появится на сайте автоматически.
 
-Добавь объект в массив `chapters`:
+## Добавить новые правила
+
+1. Скопируй шаблон:
+
+```text
+content_inbox/rules_template
+```
+
+Например:
+
+```text
+content_inbox/new_rules
+```
+
+2. Внутрь положи картинки:
+
+```text
+18.png
+19.png
+```
+
+3. В `rules.json` опиши правила:
 
 ```json
 {
-  "id": "chapter5",
-  "title": "Глава 5 — Название",
-  "subtitle": "Короткое описание главы.",
-  "words": "words/chapter5.json",
-  "webWords": "data/chapter5.json",
-  "dialogs": [
+  "rules": [
     {
-      "title": "Диалог 1 — Название",
-      "path": "dialogues/chapter5/dialog1.png",
-      "webPath": "media/dialogues/chapter5/dialog1.png"
+      "title": "Название правила",
+      "tag": "Правило",
+      "file": "18.png"
     }
   ]
 }
 ```
 
-## 4. Новое правило
-
-Положи картинку в:
-
-```text
-rules/14.png
-```
-
-И добавь объект в массив `rules`:
-
-```json
-{
-  "title": "Название правила",
-  "tag": "Тема",
-  "path": "rules/14.png",
-  "webPath": "media/rules/14.png"
-}
-```
-
-## 5. Обновить Web App
-
-После добавления файлов запусти:
+4. Запусти:
 
 ```powershell
-py sync_webapp_content.py
+py import_content.py rules content_inbox/new_rules
 ```
 
-Потом проверь локально:
+## Просто пересинхронизировать сайт
+
+Если ты вручную поменял `content/chapters.json`, запусти:
+
+```powershell
+py import_content.py sync
+```
+
+## Проверить локально
 
 ```powershell
 py serve_webapp.py
 ```
 
-И открой:
+Открой:
 
 ```text
 http://127.0.0.1:8080/webapp/index.html

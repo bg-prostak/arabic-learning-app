@@ -1,0 +1,326 @@
+[
+  {
+    "arabic": "الإِمَارَات",
+    "translation": "Эмираты"
+  },
+  {
+    "arabic": "سَيَّارَة",
+    "translation": "автомобиль / машина"
+  },
+  {
+    "arabic": "سَيَّارَات",
+    "translation": "автомобили / машины"
+  },
+  {
+    "arabic": "بَعِيد",
+    "translation": "далеко / далёкий"
+  },
+  {
+    "arabic": "مُشْكِلَة",
+    "translation": "проблема"
+  },
+  {
+    "arabic": "مُشْكِلَات",
+    "translation": "проблемы"
+  },
+  {
+    "arabic": "اِسْتَطَاعَ - يَسْتَطِيعُ - اِسْتَطِعْ",
+    "translation": "мочь"
+  },
+  {
+    "arabic": "هَكَذَا",
+    "translation": "так / вот так"
+  },
+  {
+    "arabic": "طَائِرَة",
+    "translation": "самолёт"
+  },
+  {
+    "arabic": "طَائِرَات",
+    "translation": "самолёты"
+  },
+  {
+    "arabic": "أَسْهَل",
+    "translation": "самый простой / проще"
+  },
+  {
+    "arabic": "خَافَ - يَخَافُ - خَفْ",
+    "translation": "бояться"
+  },
+  {
+    "arabic": "لِهَذَا السَّبَب",
+    "translation": "по этой причине"
+  },
+  {
+    "arabic": "سَبَب",
+    "translation": "причина"
+  },
+  {
+    "arabic": "أَسْبَاب",
+    "translation": "причины"
+  },
+  {
+    "arabic": "أَوْ",
+    "translation": "или"
+  },
+  {
+    "arabic": "قِطَار",
+    "translation": "поезд"
+  },
+  {
+    "arabic": "قِطَارَات",
+    "translation": "поезда"
+  },
+  {
+    "arabic": "دَائِمًا",
+    "translation": "всегда / постоянно"
+  },
+  {
+    "arabic": "أَبَدًا",
+    "translation": "никогда"
+  },
+  {
+    "arabic": "فَهِمَ - يَفْهَمُ - اِفْهَمْ",
+    "translation": "понимать"
+  },
+  {
+    "arabic": "ضَابِط",
+    "translation": "офицер"
+  },
+  {
+    "arabic": "مُسَافِر",
+    "translation": "путешественник"
+  },
+  {
+    "arabic": "مُسَافِرُون",
+    "translation": "путешественники"
+  },
+  {
+    "arabic": "اِنْتَظَرَ - يَنْتَظِرُ - اِنتَظِرْ",
+    "translation": "ожидать"
+  },
+  {
+    "arabic": "اِنْتِظَار",
+    "translation": "ожидание"
+  },
+  {
+    "arabic": "حَقِيبَة",
+    "translation": "сумка / чемодан"
+  },
+  {
+    "arabic": "حَقَائِب",
+    "translation": "сумки / чемоданы"
+  },
+  {
+    "arabic": "مَلْبَس",
+    "translation": "одежда"
+  },
+  {
+    "arabic": "مَلَابِس",
+    "translation": "одежда / вещи"
+  },
+  {
+    "arabic": "شَيْء",
+    "translation": "что-то / вещь"
+  },
+  {
+    "arabic": "أَشْيَاء",
+    "translation": "вещи"
+  },
+  {
+    "arabic": "تَذْكِرَة",
+    "translation": "билет"
+  },
+  {
+    "arabic": "تَذَاكِر",
+    "translation": "билеты"
+  },
+  {
+    "arabic": "جَوَازُ السَّفَر",
+    "translation": "загранпаспорт"
+  },
+  {
+    "arabic": "زَوْجَة",
+    "translation": "жена / супруга"
+  },
+  {
+    "arabic": "لَنْدَن",
+    "translation": "Лондон"
+  },
+  {
+    "arabic": "زِيَارَة",
+    "translation": "посещение / визит"
+  },
+  {
+    "arabic": "رِحْلَة",
+    "translation": "поездка / рейс"
+  },
+  {
+    "arabic": "رِحْلَات",
+    "translation": "поездки / рейсы"
+  },
+  {
+    "arabic": "النِّصْف",
+    "translation": "1/2"
+  },
+  {
+    "arabic": "الثُّلُث",
+    "translation": "1/3"
+  },
+  {
+    "arabic": "الرُّبُع",
+    "translation": "1/4"
+  },
+  {
+    "arabic": "الخُمُس",
+    "translation": "1/5"
+  },
+  {
+    "arabic": "السُّدُس",
+    "translation": "1/6"
+  },
+  {
+    "arabic": "السُّبُع",
+    "translation": "1/7"
+  },
+  {
+    "arabic": "الثُّمُن",
+    "translation": "1/8"
+  },
+  {
+    "arabic": "التُّسُع",
+    "translation": "1/9"
+  },
+  {
+    "arabic": "خَارِج",
+    "translation": "снаружи"
+  },
+  {
+    "arabic": "دَاخِل",
+    "translation": "внутри"
+  },
+  {
+    "arabic": "مِنْ قَبْل",
+    "translation": "до этого"
+  },
+  {
+    "arabic": "السُّعُودِيَّة",
+    "translation": "Саудия"
+  },
+  {
+    "arabic": "تَقَبَّلَ الله",
+    "translation": "да примет Аллах"
+  },
+  {
+    "arabic": "عَمَل",
+    "translation": "деяние / работа"
+  },
+  {
+    "arabic": "أَعْمَال",
+    "translation": "деяния / работы"
+  },
+  {
+    "arabic": "صَالِح",
+    "translation": "праведный"
+  },
+  {
+    "arabic": "آمِين",
+    "translation": "да будет так!"
+  },
+  {
+    "arabic": "مَاذَا عَنْكَ؟",
+    "translation": "что насчёт тебя?"
+  },
+  {
+    "arabic": "أَ",
+    "translation": "ли? (вопросительная частица)"
+  },
+  {
+    "arabic": "فَكَرَ - يُفَكِّرُ - تَفْكِير",
+    "translation": "думать"
+  },
+  {
+    "arabic": "هِجْرَة",
+    "translation": "переселение"
+  },
+  {
+    "arabic": "المَدِينَة المُنَوَّرَة",
+    "translation": "Лучезарная Медина"
+  },
+  {
+    "arabic": "تَرَكَ - يَتْرُكُ - اُتْرُكْ",
+    "translation": "оставлять / покидать"
+  },
+  {
+    "arabic": "زَارَ - يَزُورُ - زُرْ - زِيَارَة",
+    "translation": "посещать"
+  },
+  {
+    "arabic": "مَرَّة",
+    "translation": "раз"
+  },
+  {
+    "arabic": "مَرَّات",
+    "translation": "разы"
+  },
+  {
+    "arabic": "عَام",
+    "translation": "год"
+  },
+  {
+    "arabic": "أَعْوَام",
+    "translation": "годы"
+  },
+  {
+    "arabic": "يَسَّرَ اللهُ لَكَ",
+    "translation": "да облегчит тебе Аллах"
+  },
+  {
+    "arabic": "أَزْرَق",
+    "translation": "синий"
+  },
+  {
+    "arabic": "زَرْقَاء",
+    "translation": "синяя"
+  },
+  {
+    "arabic": "أَصْفَر",
+    "translation": "жёлтый"
+  },
+  {
+    "arabic": "صَفْرَاء",
+    "translation": "жёлтая"
+  },
+  {
+    "arabic": "أَحْمَر",
+    "translation": "красный"
+  },
+  {
+    "arabic": "حَمْرَاء",
+    "translation": "красная"
+  },
+  {
+    "arabic": "أَخْضَر",
+    "translation": "зелёный"
+  },
+  {
+    "arabic": "خَضْرَاء",
+    "translation": "зелёная"
+  },
+  {
+    "arabic": "أَسْوَد",
+    "translation": "чёрный"
+  },
+  {
+    "arabic": "سَوْدَاء",
+    "translation": "чёрная"
+  },
+  {
+    "arabic": "أَبْيَض",
+    "translation": "белый"
+  },
+  {
+    "arabic": "بَيْضَاء",
+    "translation": "белая"
+  }
+]

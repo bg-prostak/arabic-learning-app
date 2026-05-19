@@ -97,10 +97,16 @@
       "webPath": "media/rules/16.png"
     },
     {
-      "title": "Образование повелительного наклонения",
-      "tag": "Глаголы",
-      "path": "rules/17.png",
-      "webPath": "media/rules/17.png"
+      "title": "ْЧастицы отрицания",
+      "tag": "Частицы",
+      "path": "rules/18.png",
+      "webPath": "media/rules/18.png"
+    },
+    {
+      "title": "Формы глагола и масдар (المصدر)",
+      "tag": "Глагол",
+      "path": "rules/19.png",
+      "webPath": "media/rules/19.png"
     }
   ],
   "chapters": [
@@ -236,6 +242,30 @@
           "title": "Диалог 3 — Экзамен будет трудным?",
           "path": "dialogues/chapter5/dialog3.png",
           "webPath": "media/dialogues/chapter5/dialog3.png"
+        }
+      ]
+    },
+    {
+      "id": "chapter6",
+      "title": "Глава 6 — Путешествие",
+      "subtitle": "Путешествие, места, транспорт.",
+      "words": "words/chapter6.json",
+      "webWords": "data/chapter6.json",
+      "dialogs": [
+        {
+          "title": "Диалог 1 — Я собираюсь в эмираты",
+          "path": "dialogues/chapter6/dialog1.png",
+          "webPath": "media/dialogues/chapter6/dialog1.png"
+        },
+        {
+          "title": "Диалог 2 — Что у вас в сумке?",
+          "path": "dialogues/chapter6/dialog2.png",
+          "webPath": "media/dialogues/chapter6/dialog2.png"
+        },
+        {
+          "title": "Диалог 3 — Ты был заграницей?",
+          "path": "dialogues/chapter6/dialog3.png",
+          "webPath": "media/dialogues/chapter6/dialog3.png"
         }
       ]
     }
